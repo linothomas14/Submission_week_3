@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".museumPackage.DetailMuseumActivity">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="center"
+        android:src="@drawable/museumdetail"
+        />
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="NAMA MUSEUM"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tv_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Alamat : "
+        android:textColor="@color/colorBlack"
+        android:textSize="13sp"/>
+    <TextView
+        android:id="@+id/tv_kec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="Kecamatan : "
+        android:textColor="@color/colorBlack"
+        android:textSize="13sp"/>
+    <TextView
+        android:id="@+id/tv_kota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="Kota/Kab. : "
+        android:textColor="@color/colorBlack"
+        android:textSize="13sp"/>
+    <TextView
+        android:id="@+id/tv_provinsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="Provinsi : "
+        android:textColor="@color/colorBlack"
+        android:textSize="13sp"/>
+    <TextView
+        android:id="@+id/tv_pengelola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="Dikelola : "
+        android:textColor="@color/colorBlack"
+        android:textSize="13sp"/>
+
+</LinearLayout>
